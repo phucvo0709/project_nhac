@@ -1,0 +1,3 @@
+ReWriteEngine on
+RewriteRule ^([a-zA-Z0-9-_]+)/([a-zA-Z0-9-_]+)/([0-9]+).htm$ song.php?tenBaiHat=$2&id=$3
+RewriteRule ^([a-zA-Z0-9-_]+)/([0-9]+)/([a-zA-Z0-9-_]+).htm$ album.php?id=$2&tenAlbum=$3

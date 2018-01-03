@@ -1,0 +1,12 @@
+[05-Nov-2017 19:41:14 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; database has a deprecated constructor in /home/wikicach/public_html/models/database.php on line 3
+[05-Nov-2017 19:41:14 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/wikicach/public_html/models/database.php:11
+Stack trace:
+#0 /home/wikicach/public_html/models/ajax/getSongJson.php(5): database->database()
+#1 {main}
+  thrown in /home/wikicach/public_html/models/database.php on line 11
+[05-Nov-2017 19:47:54 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; database has a deprecated constructor in /home/wikicach/public_html/models/database.php on line 3
+[05-Nov-2017 19:47:54 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home/wikicach/public_html/models/database.php:11
+Stack trace:
+#0 /home/wikicach/public_html/models/ajax/getSongJson.php(5): database->database()
+#1 {main}
+  thrown in /home/wikicach/public_html/models/database.php on line 11

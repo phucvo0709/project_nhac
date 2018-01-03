@@ -1,0 +1,664 @@
+html, body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    width:100%;
+    height: 100%;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 125%;
+    font-family: sans-serif;
+    color: #555;
+    background-color: #f2f2f2;
+}
+a{
+    color: #2582be;
+    text-decoration: none !important;
+}
+a:hover{
+    color:#a845de;
+}
+li{
+    list-style-type: none !important;
+}
+h3{
+    font-size: 14px;
+}
+.has-success .form-control {
+    border-color: #ccc !important;
+}
+#container {
+    min-height:100%;
+}
+#hienThi{
+    max-width:240px;
+    max-height:240px;
+}
+.padding_submit{
+    padding-left: 26px;
+}
+#themTheLoai{
+    color:red;
+}
+/*index*/
+.item{
+    margin-bottom: 20px !important;
+}
+.content-row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section{
+    margin-top: 30px;
+}
+.bar-nhac{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.wrap-content, .wrap-xep-hang, .wrap-ngau-nhien{
+    padding: 0;
+}
+.wrap-ngau-nhien{
+    margin-top: 30px;
+}
+.wrap-ngau-nhien{
+    padding: 0;
+    margin-left:10px;
+}
+/*header section*/
+.title-section{
+    color:purple;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 25px;
+    font-size: 20px;
+    margin-left:5px;
+}
+.title_xep_hang{
+    color:purple;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 19px;
+    font-size: 20px;
+    margin-left:5px;
+    margin-top: 55px;
+}
+.anhXepHang{
+    width:90%;
+}
+.description-music-theme{
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left:5px;
+}
+
+/*item*/
+.thumb{
+    display: block;
+    margin-bottom: 8px;
+    background-color: #000;
+}
+.singer-name a{
+    color: #888;
+    font-size:12px;
+}
+.singer-name{
+    word-break: break-word;
+    margin: 0px;
+}
+.title-item{
+    margin: 0px;
+}
+.title-item a:hover, .singer-name a:hover{
+    color: #a845de;
+}
+.luot-nghe{
+    font-size:14px;
+}
+/*widget*/
+.widget{
+    position: relative;
+    height: 100%;
+    width: 100%
+}
+/*bang xep hang*/
+.ca_si_viet_nam, .nhung_bai_hit_moi, .nhac_phim, .nhac_hot{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.title-item-xh{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 0px;
+    width:60%;
+    float: left;
+}
+.stt-xh{
+    width:20%;
+    float: left;
+}
+.view-xh{
+    width:20%;
+    float: right;
+}
+.itemm{
+    padding:0 0 30px 0;
+    border-bottom:1px solid #f2f2f2;
+}
+
+/*album*/
+.content{
+    width: 100%;
+    /* height: 100%; */
+}
+/*bar-trai*/
+.bar-nhac-trai{
+}
+.albumImg{
+    height: 50px;
+    margin-right: 15px;
+    max-width: 57px;
+    float: left;
+    background-size: cover;
+}
+.trackInfoBar{
+    display: table;
+}
+.trackNameBar{
+    display: inline-block;
+    margin: 5px 0px;
+    width: 100%;
+}
+.artistNameBar{
+    white-space: nowrap;
+    font-size: 10px;
+    color: #a0a0a0;
+}
+/*bar giua*/
+.bar-nhac{
+    width: 100%;
+    background-color: #1B2727;
+}
+.nhac-dang-choi{
+    padding: 15px;
+}
+.bar-nhac-giua{
+}
+.buttons{
+    margin: 0 auto;
+    display: table;
+}
+.controlButton{
+    background-color: transparent;
+    border: none;
+    vertical-align: middle;
+}
+.controlButton:hover{
+    cursor: pointer;
+}
+.controlButton img{
+    height: 20px;
+    width: 20px;
+}
+.controlButton.play img, .controlButton.pause img{
+    height: 32px;
+    width: 32px;
+}
+.playbackBar{
+    display: flex;
+}
+.progressBar{
+    width: 100%;
+    display: inline-flex;
+    cursor: pointer;
+    margin-top: 6px;
+}
+.progressBarbg{
+    background-color: #404040;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+}
+.progress{
+    background-color: #a0a0a0;
+    height: 4px;
+    width: 0px;
+    border-radius: 2px;
+}
+.progressTime{
+    color: #FDFDFD;
+    font-size: 12px;
+    text-align: center;
+    min-width: 40px;
+}
+/*bar phai*/
+.bar-nhac-phai{
+    margin-top: 15px;
+}
+.volumeBar{
+    position: absolute;
+    right: 0;
+}
+.volumeBar .progressBar{
+    width: 125px;
+}
+.volumeBarSong{
+    display: inline;
+}
+.volumeBarSong .progressBar{
+    width: 125px;
+}
+.item-right{
+    float:right;
+}
+.trackView{
+    display: block;
+    margin-bottom: 5px;
+}
+/*danh sach nhac*/
+.title-item{
+    cursor: pointer;
+}
+.title-item:hover,{
+    color:purple;
+}
+.danh-sach-nhac{height:auto; width:100%;}
+.danh-sach-nhac{overflow:hidden; overflow-y:scroll;}
+/*hover item*/
+.thumbs {
+    float:left;
+    position:relative
+}
+.play-link{
+    position : absolute;
+    top:30%;
+    left:35%;
+    display:none;
+    margin:0 auto; 
+    z-index:100
+ }
+.item:hover .play-link{display:block}; 
+/*ajax_tim_kiem*/
+#search{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+}
+.khung-tim-kiem{
+    position: relative;
+}
+.hien-thi-tim-kiem{
+    position: absolute; 
+    width: 100%;
+    top: 100%; 
+    z-index: 100;
+}
+.hien-thi-tim-kiem-bai-hat{
+    width: 100%;
+    top: 100%; 
+    z-index: 100;
+    background: white;
+}
+#result-album{
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    border-right: 1px solid silver;
+    border-top: 1px solid silver;
+    border-left: 1px solid silver;
+    display: none;
+    background: white;
+}
+#result-tenBaihat{
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+    display: none;
+    background: white;
+}
+#result-tenCaSi{
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-left: 1px solid silver;
+    display: none;
+    background: white;
+}
+.album, .baiHat, .caSi{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 5px;
+}
+.album a:hover, .baiHat a:hover, .caSi a:hover{
+    color:purple;
+}
+/*Trang thêm*/
+.itemThem{
+    margin:25px 0 25px 0;
+}
+
+/*slider*/
+.slider-area { width:95%; position:relative; margin:0 auto; padding:5px;}
+/*-------------------------
+[9. Block slider]
+---------------------------*/
+.block-slider{
+	border:none;
+	width: 100%;
+}
+.block-slider ul li{
+	list-style: none;
+}
+.block-slider .bx-pager{
+	display: none;
+}
+.block-slider .bx-prev,
+.block-slider .bx-next{
+	width: 32px;
+	height: 32px;
+	border: 1px solid #eaeaea;
+	text-align: center;
+	display: block;
+	border-radius: 50%;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	line-height: 29px;
+	-moz-transition: all 0.45s ease;
+	-webkit-transition: all 0.45s ease;
+	-o-transition: all 0.45s ease;
+	-ms-transition: all 0.45s ease;
+	transition: all 0.45s ease;
+}
+.block-slider img{
+	width: 100%;
+	height: auto;
+}
+.block-slider .bx-prev{
+	left: 0px;
+	padding-right: 3px;
+}
+.block-slider .bx-next{
+	right: 0px;
+	padding-left: 3px;
+}
+.block-slider:hover .bx-prev{
+	left: 10px;
+}
+.block-slider:hover .bx-next{
+	right: 10px;
+}
+.block-slider .bx-prev:hover,
+.block-slider .bx-next:hover{
+	background: #5a88ca;
+	color: #fff;
+	border-color: #5a88ca;
+}
+
+/*------------------
+[4. Slidershow]
+------------------*/
+
+.block-slider .bx-pager{
+	display: block;
+    text-align: center;
+}
+.block-slider .bx-pager-item{
+	width: 15px;
+	height: 15px;
+	background: #fff;
+	font-size: 0;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 0 3px;
+}
+.block-slider .bx-pager-item a{
+	width: 100%;
+	height: 100%;
+	background: #999;
+	display: block;
+	border-radius: 50%;
+}
+.block-slider .bx-pager-item a.active{
+	background: #1bd172;
+}
+.block-slider .caption-group{
+	position: absolute;
+    top: 26%;
+    right: 16%;
+}
+.block-slider .caption-group .title{
+	margin: 0;
+}
+.block-slider .caption-group .subtitle{
+	margin: 0;
+	margin-top: 5px;
+}
+.block-slider .caption-group .button-radius{
+	margin-top: 27px;
+}
+.block-slider .caption-group .primary{
+	color: #1bd172;
+}
+.block-slider .caption-group .caption{
+
+}
+/*end slider*/
+/*footer*/
+footer{
+    background-color: coral;
+}
+/*end footer*/
+/*trang ca sĩ*/
+
+/*end trang ca sĩ*/
+/*navbar*/
+.res-navbar{
+    width:100%;
+}
+ul.navbar-nav{
+    width:100%;
+}
+.dropdown-menu{
+    left: 10px;
+}
+.dropdown-item:hover{
+    color:#9c27b0;
+}
+/*end navbar*/
+/*quan ly album*/
+#table-div{
+    overflow-y: scroll;
+    max-height: 133px;
+    margin: 20px;
+}
+/*end quan ly album*/
+/*trang danh sach ca si*/
+.content_ca_si{
+    background: #e6ecf0;
+}
+
+.center{
+    background: #fff;
+    margin-top:10px;
+    padding-left:40px;
+}
+
+.phan_trang{
+    margin:10px;
+}
+
+/* .item{
+    padding:10px;
+} */
+
+/*end trang danh sach ca si*/
+/*item lien quan*/
+.item_lien_quan{
+    width: 69%;
+    margin: 0 auto;
+    margin-top: 20px !important;
+    margin-bottom: 40px !important;
+}
+.item_lien_quan_ca_si{
+    margin-bottom: 40px !important;
+}
+.item_ca_si, .item_the_loai{
+    font-size: 8px;
+}
+/*end item lien quan*/
+/*responsive*/
+@media only screen and (min-width : 1224px) {
+    .wrapper-page{
+        width: 80%;
+        min-height:100%;
+        margin: 0 auto;
+    }
+     /* .item{
+        position: relative;
+        max-width: 24%;
+        margin: 0 auto;
+    } */
+    .section{
+        margin-right: 23px;
+        margin-left: 15px;
+    }
+}
+@media only screen and (min-width : 768px) and (max-width : 1224px) {
+    .wrapper-page{
+        width: 80%;
+        min-height:100%;
+        margin: 0 auto;
+    }
+     /* .item{
+        position: relative;
+        max-width: 24%;
+        margin: 0 auto;
+    } */
+    .bar-nhac-phai{
+        display:none;
+    }
+    .ca-si-danh-sach{
+        display:none;
+    }
+    .section{
+        margin-right: 22px;
+        margin-left: 15px;
+    }
+    .title_name{
+        font-size:10px !important;
+    }
+    .size_name{
+        font-size:8px !important;
+    }
+    .item_lien_quan{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width : 460px) and (max-width : 768px) {
+    .wrapper-page{
+        min-height:100%;
+        margin: 0 auto;
+    }
+    /* .item{
+        position: relative;
+        max-width: 30%;
+        margin: 8px;
+    } */
+    .bar-nhac-phai{
+        display:none;
+    }
+    .ca-si-danh-sach{
+        display:none;
+    }
+    .item-right{
+        display: none;
+    }
+    .section, .itemm, .wrap-xep-hang{
+        margin-left: 11px;
+    }
+    .size_name{
+        font-size:9px !important;
+    }
+    .item_lien_quan{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width : 460px){
+    .wrapper-page{
+        min-height:100%;
+        margin: 0 auto;
+    }
+    /* .item{
+        position: relative;
+        max-width: 44%;
+        margin: 6px;
+    } */
+    .bar-nhac-phai{
+        display:none;
+    }
+    .ca-si-danh-sach{
+        display:none;
+    }
+    .item-right{
+        display: none;
+    }
+    .volumeBarSong .progressBar .progressBarbg{
+        display: none;
+    }
+    .bar-nhac-giua .content.playerControls .buttons{
+        margin:5px 0px 0px 60px;
+    }
+    .title-item{
+        font-size:10px;
+    }
+    .itemm, .section, .wrap-xep-hang{
+        margin:0px 5px 0px 5px;
+    }
+    .size_name{
+        font-size:8px !important;
+    }
+    .item:hover .play-link{
+        display:none
+    }
+    .ten_ca_si{
+        font-size:8px !important;
+    }
+    .center{
+        background: #fff;
+        margin-top:0px;
+        padding-left:0px;
+    }
+    .item_bai_hat, .item_album{
+        font-size:10px;
+    }
+    .title_item_bai_hat, .title_item_album{
+        margin-top: 5px;
+        font-size:12px;
+    }
+    .item_lien_quan{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .hien_thi_anh, .button_them{
+        margin-top: 20px;
+    }
+    .anhXepHang{
+        width:97%;
+    }
+}
